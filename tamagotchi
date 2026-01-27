@@ -2,52 +2,47 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <title>Dropout Bear Tamagotchi</title>
+  <title>Mijn Tamagotchi</title>
   <link rel="stylesheet" href="tama.css">
 </head>
 <body>
-  
-  <audio controls autoplay id="music">
-  <source src="track website v.1.wav." type="audio/ogg">
-</audio>
 
- 
-<header class="stats">
-  <div class="stat">
-    <span>🍔 Honger</span>
+  <div class="container">
+  <h1>Tamagotchi</h1>
+
+  <div class="stats">
+    <p>Honger</p>
     <div class="bar"><div class="fill hunger"></div></div>
-  </div>
- 
-  <div class="stat">
-    <span>😴 Slaap</span>
+
+    <p>Slaap</p>
     <div class="bar"><div class="fill sleep"></div></div>
-  </div>
- 
-  <div class="stat">
-    <span>🎮 Plezier</span>
+
+    <p>Plezier</p>
     <div class="bar"><div class="fill fun"></div></div>
   </div>
-</header>
- 
-<main class="tamagotchi-zone">
-  <div class="bear">
-    <div class="eye left"></div>
-    <div class="eye right"></div>
-    <div class="mouth"></div>
+
+  <div class="pet-box">
+    <img src="eevee.gif" alt="">
   </div>
-</main>
+
+  <p id="message">Hoi, zorg goed voor mij!</p>
+
+  <div class="buttons">
+    <button id="food">🍎 Eten</button>   <button id="sleep">😴 Slapen</button>   <button id="play">🎮 Spelen</button>
+  </div>
+
+  <div class="chat">
+    <div id="chat-box"></div>
+    <input id="chat-input" placeholder="Typ iets">
+    <button id="send-btn">Stuur</button>
+  </div>
+</div>
+
+
+  <audio controls autoplay id="music">
+  <source src="track website v.1.wav." type="audio/mp3">
+</audio>
  
-<!-- TEKST VAN TAMAGOTCHI -->
-<p id="message">Hallo! Zorg goed voor mij 💜</p>
- 
-<!-- INPUT -->
- <div id="button">
-<button id="food">eten</button>
-<button id="sleep">slapen</button>
-<button id="play">speel</button>
- </div>
 <script src="tamagot.js"></script>
 </body>
 </html>
- 
- 
