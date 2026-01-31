@@ -64,36 +64,6 @@ h1 {
   background-color: #444;
 }
 
-.chat {
-  width: 100%;
-  margin-top: 10px;
-}
-
-#chat-box {
-  border: 3px solid rgb(44, 42, 42);
-  height: 80px;
-  overflow-y: auto;
-  margin-bottom: 5px;
-  font-size: 12px;
-  padding: 5px;
-  border-radius: 10px;
-  text-align: left;
-}
-
-#chat-input {
-  width: 70%;
-  padding: 5px;
-  border-radius: 10px;
-  border: 2px solid rgb(44, 42, 42);
-}
-
-#send-btn {
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: 2px solid rgb(44, 42, 42);
-  color: white;
-  background-color: black;
-}
 
 #music {
   display: none;
