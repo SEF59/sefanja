@@ -22,7 +22,7 @@
   </div>
 
   <div class="pet-box">
-    <img src="eevee.gif" alt="">
+    <img src="ray.gif" alt="">
   </div>
 
   <p id="message">Hoi, zorg goed voor mij!</p>
@@ -31,12 +31,7 @@
     <button id="food">🍎 Eten</button>   <button id="sleep">😴 Slapen</button>   <button id="play">🎮 Spelen</button>
   </div>
 
-  <div class="chat">
-    <div id="chat-box"></div>
-    <input id="chat-input" placeholder="Typ iets">
-    <button id="send-btn">Stuur</button>
-  </div>
-</div>
+  
 
 
   <audio controls autoplay id="music">
